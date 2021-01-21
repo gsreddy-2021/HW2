@@ -1,6 +1,8 @@
 # HW2
 Homework 2
 
+Deployed site: https://tender-kirch-80dbeb.netlify.app/index.html
+
 <!DOCTYPE html>
 <html lang="en">
 
