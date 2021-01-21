@@ -5,13 +5,48 @@
         <title>A Random Business - Products</title>
         <link href="https://unpkg.com/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
     </head>
+    
     <body>
-        <h1>Products & Services</h1>
-        <ol>
-            <Li>Engines</Li>
-            <Li>Gensets</Li> 
-            <li>Fuel Cells</li> 
-            <li>Batteries</li>
-        </ol>
+        <h1 class="text-center m-8 capitalize text-blue-800 font-bold text-5xl">Products & Services</h1>
+        
+        <div class="mt:p-20 p-4">  
+
+            <div class="flex">
+                <h1 class="text-xl font-bold text-center">
+                    <a href="index.html">
+                      <span class="text-blue-800">Power Solutions.</span>
+                    </a>
+                </h1>
+            </div>
+
+            <div class="px-20 md:flex items-center bg-red-50">
+                <div class="md:w-1/2 m-auto md:p-20">
+                  <img class="rounded-xl" src="https://fleetimages.bobitstudios.com/upload/trucking-info/content/news/2020-10/cummins-endurant_x12-__-1200x630-s.jpg">
+                </div>
+                <div class="md:w-1/2 p-20 space-y-10">
+                    <h2 class="font-bold text-xl">We sell Engines.</h2>
+                    <p>Diesel, Gasoline, Natural Gas, Hydrogen.</a></p>
+                    <h2 class="font-bold text-xl">We sell Gensets.</h2>
+                    <p>For mission critical applications.</p>
+                    <h2 class="font-bold text-xl">We offer alternative energy/fuel Technologies.</h2>
+                    <p>Fuel cells, EV Powertrains and more.</p>
+                </div>
+            </div>      
+
+        <div class="m-8">
+            <h1 class="text-3xl font-bold text-center">Sign up to learn more</h1>
+
+            <form netlify class="mx-auto mt-8 w-64">
+            <label class="block mt-4 font-bold" for="name">What is your name?</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="name" name="name">
+
+            <label class="block mt-4 font-bold" for="favorite-color">What product do you want to know more about?</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="favorite-color" name="favoriteColor">
+
+            <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Submit form!</button>
+            </form>
+        </div>
+
+        <p> <a href="https://coronavirus.jhu.edu/map.html">John Hopkins Covid Dashboard</a> </p>
     </body>
 </html>
