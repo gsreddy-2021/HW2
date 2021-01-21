@@ -46,41 +46,6 @@ Deployed site: https://tender-kirch-80dbeb.netlify.app/index.html
     </div>
 </body>
 
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@gsreddy-2021 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-kiei451-winter2021
-/
-week2
-Template
-1
-01
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-week2/lab/week2-instructions.html
-@eng
-eng week2
-Latest commit fde382c 10 days ago
- History
- 1 contributor
-60 lines (51 sloc)  4.81 KB
-  
 <!DOCTYPE html>
 <html lang="en">
 
@@ -141,18 +106,5 @@ Latest commit fde382c 10 days ago
   </div>
 </body>
 </html>
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
 
 </html>
