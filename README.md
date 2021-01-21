@@ -46,4 +46,113 @@ Deployed site: https://tender-kirch-80dbeb.netlify.app/index.html
     </div>
 </body>
 
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@gsreddy-2021 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+kiei451-winter2021
+/
+week2
+Template
+1
+01
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+week2/lab/week2-instructions.html
+@eng
+eng week2
+Latest commit fde382c 10 days ago
+ History
+ 1 contributor
+60 lines (51 sloc)  4.81 KB
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIEI-451: Week 2 Lab</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/plugins/line-numbers/prism-line-numbers.min.css"
+    rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/prism.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+</head>
+<body>
+  <div class="container mx-auto py-8">
+    <h1 class="text-lg uppercase text-gray-500 font-bold">KIEI-451: Introduction to Software Development</h1>
+    <h2 class="text-2xl font-bold">Week 2 Lab Instructions</h2>
+    
+    <div class="mt-4 space-y-4">
+      <h3 class="text-xl font-bold">Styling Musiccessories</h3>
+      <ol class="list-decimal list-inside">
+        <li>Create a brand-new repository on GitHub. Name the repo <span class="bg-orange-100 text-red-400 font-mono p-1">week2-lab</span> and clone/open it in VSCode.</li>
+        <li>Create a new file named <span class="bg-orange-100 text-red-400 font-mono p-1">index.html</span>. Use <span class="bg-orange-100 text-red-400 font-mono p-1">lab/musiccessories-unstyled.html</span> as the starting point (i.e. copy-and-paste the source) for your newly-created <span class="bg-orange-100 text-red-400 font-mono p-1">index.html</span>.</li>
+        <li>Add the Tailwind CSS framework to the unstyled page, and add Tailwind class names to the existing elements to make it look similar to the wireframe below.</li>
+        <li>Add an order form to the bottom of the page (similar to the wireframe) and follow the instructions below to get your page publicly hosted on Netlify and accepting form submissions.</li>
+        <li>Click the "Source Control" icon in the left-hand sidebar, commit and push your changes.</li>
+      </ol>
+
+      <h3 class="text-xl font-bold">Netlify – Hosting</h3>
+      <p>This quarter, we'll be using a free service called <a href="https://netlify.com/" target="_blank" class="text-pink-500 underline">Netlify</a> to publicly host our websites and applications. If you haven't already, please set up an account to use – <strong>you'll want to log-in with your GitHub login when initially signing up.</strong> This will allow you to automatically link your GitHub repositories to your public Netlify apps.</p>
+      <p>Creating a new Netlify app is straightforward; simply log-in to your Netlify account and select "New site from Git". Follow the prompts to connect to your GitHub account and select a repository to deploy. <strong>The GitHub repository we connect to must have a <span class="bg-orange-100 text-red-400 font-mono p-1">index.html</span> in the root of its directory structure.</strong></p>
+
+      <h3 class="text-xl font-bold">Netlify – Forms</h3>
+      <p>Netlify has built-in functionality to accept form data. When your site is hosted on Netlify, we simply need to add a <span class="bg-orange-100 text-red-400 font-mono p-1">netlify</span> attribute to our <span class="bg-orange-100 text-red-400 font-mono p-1">form</span> tags for this to work. Essentially, this attribute triggers a little bit of JavaScript on Netlify's end, in order to automatically add the form's <span class="bg-orange-100 text-red-400 font-mono p-1">action</span> when submitting the form. Note that this only works on the publicly available site that's hosted on Netlify – not the development version that lives on your computer. Here's a quick example:</p>
+
+      <pre class="m-0 p-0">
+        <code class="language-html">
+&lt;form netlify&gt;
+  &lt;label class=&quot;block mt-4 font-bold&quot; for=&quot;name&quot;&gt;What is your name?&lt;/label&gt;
+  &lt;input class=&quot;p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+  focus:border-purple-500&quot; type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot;&gt;
+
+  &lt;label class=&quot;block mt-4 font-bold&quot; for=&quot;favorite-color&quot;&gt;What is your favorite
+  color?&lt;/label&gt;
+  &lt;input class=&quot;p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+  focus:border-purple-500&quot; type=&quot;text&quot; id=&quot;favorite-color&quot; name=&quot;favoriteColor&quot;&gt;
+
+  &lt;button class=&quot;block mt-4 text-white bg-purple-500 rounded px-4 py-2&quot;&gt;Submit form!&lt;/button&gt;
+&lt;/form&gt;</code>
+      </pre>
+
+      <h3 class="text-xl font-bold">Musiccessories Mockup</h3>
+      <p><img class="w-full" src="musiccessories.png"></p>
+    </div>
+
+  </div>
+</body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
 </html>
